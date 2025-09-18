@@ -1,0 +1,29 @@
+.InfoBox{
+    text-align: center;
+    margin-bottom: 25px;
+    border-color: rgb(197, 175, 85);
+    animation: fadeIn 1s ease-in;
+    
+
+}
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    border-color: rgb(197, 175, 85);
+    gap: 20px;
+    animation: fadeIn 1s ease-in;
+
+
+}
+.card{
+    background-color: rgb(197, 175, 85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.card:hover{
+    transform: translateY(-10px);   
+}
