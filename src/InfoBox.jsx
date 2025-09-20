@@ -23,19 +23,19 @@ const InfoBox = ({info}) => {
     <div className='InfoBox'>
       
      <div className='cardContainer'>   
-     <Card sx={{ maxWidth: 345 }}>
+     <Card sx={{ maxWidth: 345,backgroundColor:'black',boxShadow:'5px 5px 15px yellow',textcolor:'white',borderRadius:'15px',borderColor:'yellow' }} >
       <CardMedia
-        sx={{ height: 140 }}
+        sx={{ height: 140 ,textcolor:'white' }}
         image={info.humidity>80?RAINY_URL :(info.temp>25?HOT_URL:(info.temp<20?CLOUDY_URL:CLOUDY_URL))}
         title="green iguana"
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography gutterBottom variant="h5" component="div"  color='white'>
           {info.city}&nbsp; &nbsp; &nbsp;
           {info.temp>25?hot:(info.temp<20?cold:(info.humidity>80?rainy:cloudy))}
         </Typography>
-        <Typography variant="body2" color='text.secondary' component={"span"}>
-            <div>
+        <Typography variant="body2" color='white'  component={"span"}>
+            <div className='infoDetails'>
          <p>Temperature:{info.temp}&deg;C</p>
          <p>Humidity :{info.humidity}&deg;C</p>
          <p> Min Temp:{info.tempMin}&deg;C</p>
