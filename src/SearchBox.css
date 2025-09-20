@@ -3,5 +3,7 @@
     margin-bottom: 25px;
     border-color: rgb(197, 175, 85);
     animation: fadeIn 1s ease-in;
+    color: white;
+    font-size: 20px;
 
 }

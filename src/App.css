@@ -1,3 +1,9 @@
+/* Set the whole page background to black */
+body {
+  background-color: #000;
+  color: #fff;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;

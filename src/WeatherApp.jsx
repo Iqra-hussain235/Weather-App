@@ -19,7 +19,7 @@ const WeatherApp = () => {
     };
 
   return (
-    <div style={{textAlign:"center"}}>
+    <div style={{textAlign:"center",border:'2px solid yellow',borderRadius:'10px',boxShadow:'5px 5px 15px blue' ,height:'90vh',width :'50vh',backgroundColor:'white',justifyItems:'center',display:'flex',flexDirection:'column',alignItems:'center',margin:'auto',marginTop:'20px'}}>
         <h1 style={{color:'blue'}}>WeatherApp</h1>
         <SearchBox updateInfo={updateInfo}/>
         <InfoBox info={weatherInfo}/>
