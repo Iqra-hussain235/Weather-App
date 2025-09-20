@@ -27,3 +27,13 @@
 .card:hover{
     transform: translateY(-10px);   
 }
+.Infodetails{
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

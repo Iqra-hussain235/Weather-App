@@ -58,7 +58,7 @@ const SearchBox = ({updateInfo }) => {
   return (
     <div className='SearchBox'>
      
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} color='white'textcolor='white'>
         <TextField id="city" label="City Name" variant="outlined" required value={city} onChange={handleChange}/>
         <br></br>
         <br></br>
